@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/rubik': ^4.5.11
   '@solidjs/meta': ^0.28.0
   '@solidjs/router': ^0.5.0
   solid-js: ^1.5.7
@@ -12,6 +13,7 @@ specifiers:
   windicss: ^3.5.6
 
 dependencies:
+  '@fontsource/rubik': 4.5.11
   '@solidjs/meta': 0.28.0_solid-js@1.5.7
   '@solidjs/router': 0.5.0_solid-js@1.5.7
   solid-js: 1.5.7
@@ -1259,6 +1261,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource/rubik/4.5.11:
+    resolution: {integrity: sha512-m0/4GKOqJjF9cB4wuLgDhRdRVt35WzqI5n7SgddRjRD+yzsO0eEq/ak0ezgfbR3+f91ydDCek1+RuOVB8dNYwg==}
+    dev: false
 
   /@hapi/hoek/9.3.0:
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}

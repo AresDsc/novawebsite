@@ -4,22 +4,17 @@ import { A } from "solid-start";
 import NovaLogo from "@/components/NovaLogo"
 
 const Header: Component = () => {
-  const [theme, setTheme] = createSignal<"black" | "white">("black");
   const toggleTheme = () => {
     document.body.classList.toggle("dark");
     document.body.classList.toggle("bg-black");
-    if (theme() === "black") setTheme("black");
-    else setTheme("white");
   };
 
   return (
     <header class="h-32 px-8 py-2 flex justify-between items-center">
-      <div class="flex gap-4">
-        <div >
-          <NovaLogo size={32} color={theme()} />
-        </div> 
+      <div class="flex items-center gap-4">
+        <NovaLogo size={32} class="text-black dark:text-white" />
 
-        <A class="no-underline font-bold text-lg text-black dark:text-white" href="/">
+        <A class="no-underline font-medium text-xl text-black dark:text-white" href="/">
           Nova
         </A>
       </div>

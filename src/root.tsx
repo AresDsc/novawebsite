@@ -1,5 +1,9 @@
 // @refresh reload
+import "@fontsource/rubik/latin-300.css";
+import "@fontsource/rubik/latin-400.css";
+import "@fontsource/rubik/latin-500.css";
 import "virtual:windi.css";
+
 import { Suspense } from "solid-js";
 
 import {
