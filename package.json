@@ -18,6 +18,7 @@
     "@fontsource/rubik": "^4.5.11",
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.5.0",
+    "solid-icons": "^1.0.2",
     "solid-js": "^1.5.7"
   },
   "engines": {
